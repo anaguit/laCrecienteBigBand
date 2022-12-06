@@ -65,12 +65,6 @@ a{
 /*.linkHome{
     border:#000 solid 2px;
 }*/
-.seccionesHome{
-    border: black 2px dashed;
-}
-.tituloSeccion{
-    text-align: center;
-}
 
 /* --- FOOTER --- */
 footer{
