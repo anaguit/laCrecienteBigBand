@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    font-family: arial;
 }
 a{
     text-decoration: none;
@@ -31,7 +32,39 @@ a{
 /* --- MAIN ---*/
 .contenedorMain{
     padding-top: 20%;
+    font-size: 1rem;
 }
+.portada{
+    padding: 10%;
+    width: 100vw;
+    height: 70vw;
+    background-image:url("/imagenes/portadaCreciente.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.tituloPortada{
+    color: #fff;
+    text-align: center;
+    font-size: 1.5em;
+}
+.textoPortada{
+    color:#fff;
+    text-align: center;
+    font-size: 1.2em;
+}
+.linksHome{
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;padding: 2%;
+    font-size: 0.8em;
+}
+/*.linkHome{
+    border:#000 solid 2px;
+}*/
 .seccionesHome{
     border: black 2px dashed;
 }
