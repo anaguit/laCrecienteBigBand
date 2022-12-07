@@ -102,6 +102,16 @@ a{
 .textoSeccion{
     font-size: 0.8em;
 }
+
+/* --- VISTAS SECUNDARIAS --- */
+.vistasSecundarias{
+    padding: 25% 5% 5% 5%;
+    font-size: 1rem;
+}
+.tituloPrincipalSeccion{
+    font-size: 1.2em;
+    text-align: center;
+}
 /* --- FOOTER --- */
 footer{
     background-color:#CA0616;
