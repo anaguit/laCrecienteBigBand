@@ -12,6 +12,7 @@ a{
 .header{
     background-color:#CA0616;
     position: fixed;
+    z-index: 1;
     width: 100vw;
     display: flex;
     justify-content: space-between;
@@ -74,8 +75,8 @@ a{
 .contenedorMenu{
     width: 100vw;
     padding: 3% 0%;
-    position: relative;
-    z-index: -2;
+    /*position: relative;
+    z-index: -2;*/
     background-color:#CA0616;
     border:#000 solid 3px;
 }
@@ -87,7 +88,16 @@ a{
     position:relative;
     left: 80%;
     padding: 5px;
-    z-index: -1;
+}
+.linksHomeCelu{
+    background-color:#CA0616;
+    width: 40%;
+    padding: 2%;
+    display: none;
+}
+.linkHomeCelu{
+    font-size: 0.9em;
+    line-height: 1.7em;
 }
 .linksHome{
     display: none;
@@ -136,6 +146,9 @@ footer{
         display: none;
     }
     .menu{
+        display: none;
+    }
+    .linksHomeCelu{
         display: none;
     }
     .linksHome{
