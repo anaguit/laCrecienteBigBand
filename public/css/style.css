@@ -10,42 +10,91 @@ a{
 /* --- HEADER --- */
 
 .header{
-    background-color:#CA0616;
+    background-image:url("../imagenes/encabezadoFondoOscuroMio.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*background-color:#CA0616;*/
     position: fixed;
     z-index: 1;
     width: 100vw;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
     font-size: 1rem;
-    padding-right: 5%;
+    padding: 5% 5% 5% 5%;
 }
-.contenedorLogo{
+/*.contenedorLogo{
     width: 30vw;    
 }
 .logo{
     width: 100%;
     height: 100%;
 }
+.textoMarca{
+    min-width: 40%;
+    padding-left: 5%;
+}
+.textoId{
+    font-family: 'Michland', sans-serif;
+    font-size: 1.7em;
+    font-weight: 50;
+    color: #fff;
+}*/
+.tituloNombre{
+    font-family: 'Michland', sans-serif;
+    font-size: 2.2em;
+    font-weight:100;
+    line-height: 1px;
+    color: #CA0616;
+}
+.tituloNombreBlanco{
+    position: relative;
+    font-family: 'Michland', sans-serif;
+    font-size: 2.2em;
+    font-weight:100;
+    line-height: 1px;
+    color: #fff;
+    position: relative;
+    top:33px;
+}
+.nombre{
+    padding-left: 5%;
+    position: relative;
+    right: 5%;
+}
+.fotoNombre{
+    width: 100%;
+}
+.contactoLogos{
+    font-size: 1em;
+    position: relative;
+    left: 30%;
+}
 .iconos{
-    font-size: 1.4em;
+    font-size: 1em;
+    color:#fff
 }
-.whatsapp{
-    color:green;
-}
-.youtube{
-    color:red;
-}
-.instagram{
+.iconosFooter{
+    font-size: 1em;
     color:#000;
 }
-.facebook{
-    color:blue;
+/*.whatsapp{
+    /*color:green;
 }
+.youtube{
+    /*color:red;
+}
+.instagram{
+    color:#fff;
+}
+.facebook{
+    /*color:blue;
+}*/
 
 /* --- MAIN ---*/
 .contenedorMain{
-    padding-top: 20%;
+    padding-top: 35%;
     font-size: 1rem;
 }
 .portada{
@@ -61,24 +110,30 @@ a{
     align-items: center;
 }
 .tituloPortada{
-    color: #fff;
+    /*color: #fff;*/
     text-align: center;
-    font-size: 1.4em;
+    font-size: 2em;
     margin:0%;
+    font-family: 'Michland', sans-serif;
+    font-weight: lighter;
 }
 .textoPortada{
-    color:#fff;
     text-align: center;
-    font-size: 1em;
-    margin:0%;
+    font-size: 0.8em;
 }
-.contenedorMenu{
+.contenedorMenuCelu{
     width: 100vw;
     padding: 3% 0%;
     /*position: relative;
     z-index: -2;*/
     background-color:#CA0616;
-    border:#000 solid 3px;
+    /*border:#000 solid 3px;*/
+}
+.contenedorMenu{
+    display: none;
+    width: 100vw;
+    padding: 3% 0%;
+    background-color:#CA0616;
 }
 .menu{
     font-size: 1.3em;
@@ -142,8 +197,11 @@ footer{
 /* --- MEDIAS --- */
 
 @media only screen and (min-width:480px) {
-    .contenedorMenu{
+    .contenedorMenuCelu{
         display: none;
+    }
+    .contenedorMenu{
+        display: flex;
     }
     .menu{
         display: none;
