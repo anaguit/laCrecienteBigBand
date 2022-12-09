@@ -151,7 +151,6 @@ footer{
 }
 .iconosFooter{
     font-size: 1em;
-    color:#000;
 }
 
 /* --- MEDIAS --- */
@@ -216,6 +215,7 @@ footer{
 
     /* --- FOOTER --- */
     footer{
+        font-size: 1.2rem;
         flex-direction: row;
     }
 }
