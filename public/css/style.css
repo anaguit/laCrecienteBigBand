@@ -13,7 +13,6 @@ a{
     background-image:url("../imagenes/encabezadoFondoOscuroMio.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
-    /*background-color:#CA0616;*/
     position: fixed;
     z-index: 1;
     width: 100vw;
@@ -24,23 +23,6 @@ a{
     font-size: 1rem;
     padding: 5% 5% 5% 5%;
 }
-/*.contenedorLogo{
-    width: 30vw;    
-}
-.logo{
-    width: 100%;
-    height: 100%;
-}
-.textoMarca{
-    min-width: 40%;
-    padding-left: 5%;
-}
-.textoId{
-    font-family: 'Michland', sans-serif;
-    font-size: 1.7em;
-    font-weight: 50;
-    color: #fff;
-}*/
 .tituloNombre{
     font-family: 'Michland', sans-serif;
     font-size: 2.2em;
@@ -63,9 +45,6 @@ a{
     position: relative;
     right: 5%;
 }
-.fotoNombre{
-    width: 100%;
-}
 .contactoLogos{
     font-size: 1em;
     position: relative;
@@ -75,22 +54,6 @@ a{
     font-size: 1em;
     color:#fff
 }
-.iconosFooter{
-    font-size: 1em;
-    color:#000;
-}
-/*.whatsapp{
-    /*color:green;
-}
-.youtube{
-    /*color:red;
-}
-.instagram{
-    color:#fff;
-}
-.facebook{
-    /*color:blue;
-}*/
 
 /* --- MAIN ---*/
 .contenedorMain{
@@ -193,10 +156,33 @@ footer{
 .textoFooter{
     font-size: 0.8em;
 }
+.iconosFooter{
+    font-size: 1em;
+    color:#000;
+}
 
 /* --- MEDIAS --- */
 
 @media only screen and (min-width:480px) {
+    
+    /* --- HEADER --- */
+
+    .header{
+        font-size: 1.4rem;
+        padding: 2% 5%
+    }
+    .tituloNombre{
+        font-size: 2.5em;
+    }
+    .tituloNombreBlanco{
+        font-size: 2.5em;
+        top:54px;
+    }
+    .nombre{
+        padding-left: 0%;
+    }
+
+    /* --- MAIN --- */
     .contenedorMenuCelu{
         display: none;
     }
@@ -217,6 +203,8 @@ footer{
         background-color:#CA0616;
         border:#000 solid 3px;
     }
+
+    /* --- FOOTER --- */
     footer{
         flex-direction: row;
     }
