@@ -72,31 +72,16 @@ a{
     justify-content: space-between;
     align-items: center;
 }
-.tituloPortada{
-    /*color: #fff;*/
-    text-align: center;
-    font-size: 2em;
-    margin:0%;
-    font-family: 'Michland', sans-serif;
-    font-weight: lighter;
-}
-.textoPortada{
-    text-align: center;
-    font-size: 0.8em;
-}
+
+/*--- MENU CELU ---*/
 .contenedorMenuCelu{
     width: 100vw;
     padding: 3% 0%;
-    /*position: relative;
-    z-index: -2;*/
     background-color:#CA0616;
-    /*border:#000 solid 3px;*/
 }
-.contenedorMenu{
-    display: none;
-    width: 100vw;
-    padding: 3% 0%;
-    background-color:#CA0616;
+.textoPortadaCelu{
+    text-align: center;
+    font-size: 0.85em;
 }
 .menu{
     font-size: 1.3em;
@@ -117,9 +102,16 @@ a{
     font-size: 0.9em;
     line-height: 1.7em;
 }
+
+/*--- MENU COMPU ---*/
+.contenedorMenu{
+    display: none;
+}
 .linksHome{
     display: none;
 }
+
+/* --- cuerpo pagina home --- */
 .contenidoPagina{
     padding: 5%;
     font-size: 1rem;
@@ -140,6 +132,7 @@ a{
     font-size: 1.2em;
     text-align: center;
 }
+
 /* --- FOOTER --- */
 footer{
     background-color:#CA0616;
@@ -186,15 +179,12 @@ footer{
 
     .contenedorMain{
         padding-top: 28%;
-        font-size: 1rem;
+        font-size: 1.3rem;
     }
 
     /* --- MENÚES --- */
     .contenedorMenuCelu{
         display: none;
-    }
-    .contenedorMenu{
-        display: flex;
     }
     .menu{
         display: none;
@@ -202,11 +192,24 @@ footer{
     .linksHomeCelu{
         display: none;
     }
+
+    /* --- MENU COMPU ---*/
+    .contenedorMenu{
+        display: flex;
+        justify-content: center;
+        width: 100vw;
+        padding: 3% 0%;
+        background-color:#CA0616;
+    }
+    .textoPortada{
+        font-size: 0.8em;
+    }
     .linksHome{
         display: flex;
         justify-content: space-between;
-        width: 100vw;padding: 2%;
-        font-size: 1em;
+        width: 100vw;
+        padding: 2%;
+        font-size: 0.75em;
         background-color:#CA0616;
         border:#000 solid 3px;
     }
