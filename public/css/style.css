@@ -221,4 +221,32 @@ footer{
 }
 
 @media only screen and (min-width:768px) {
+    
+    /* --- HEADER --- */
+
+    .header{
+        font-size: 1.7rem;
+    }
+    .tituloNombre{
+        font-size: 2.5em;
+    }
+    .tituloNombreBlanco{
+        font-size: 2.5em;
+        top:65px;
+    }
+    .contactoLogos{
+        left: 40%;
+    }
+
+    /* --- MAIN --- */
+
+    .contenedorMain{
+        padding-top: 20%;
+        font-size: 1.4rem;
+    }
+
+    /* --- FOOTER --- */
+    footer{
+        font-size: 1.3rem;
+    }
 }
