@@ -23,23 +23,6 @@ a{
     font-size: 1rem;
     padding: 5% 5% 5% 5%;
 }
-
-/* --- HEADER SECUNDARIO --- */
-
-.headerSecundario{
-    background-image:url("../imagenes/encabezadoFondoOscuroRectangular.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: fixed;
-    z-index: 1;
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 1rem;
-    padding: 5% 5% 5% 5%;
-}
 .tituloNombre{
     font-family: 'Michland', sans-serif;
     font-size: 2.2em;
@@ -70,6 +53,23 @@ a{
 .iconos{
     font-size: 1em;
     color:#fff
+}
+
+/* --- HEADER SECUNDARIO --- */
+
+.headerSecundario{
+    background-image:url("../imagenes/encabezadoFondoOscuroRectangular.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    z-index: 1;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1rem;
+    padding: 5% 5% 5% 5%;
 }
 
 /* --- MAIN ---*/
@@ -142,7 +142,7 @@ a{
 
 /* --- VISTAS SECUNDARIAS --- */
 .vistasSecundarias{
-    padding: 25% 5% 5% 5%;
+    padding: 55% 5% 5% 5%;
     font-size: 1rem;
 }
 .tituloPrincipalSeccion{
@@ -230,6 +230,11 @@ footer{
         border:#000 solid 3px;
     }
 
+    /* --- VISTAS SECUNDARIAS --- */
+
+    .vistasSecundarias{
+        padding: 45% 5% 5% 5%;
+    }
     /* --- FOOTER --- */
     footer{
         font-size: 1.2rem;
@@ -262,6 +267,11 @@ footer{
         font-size: 1.4rem;
     }
 
+    /* --- VISTAS SECUNDARIAS --- */
+
+    .vistasSecundarias{
+        padding: 35% 5% 5% 5%;
+    }
     /* --- FOOTER --- */
     footer{
         font-size: 1.3rem;
