@@ -76,6 +76,7 @@ a{
 .contenedorMain{
     padding-top: 35%;
     font-size: 1rem;
+    background-color: #000;
 }
 .portada{
     padding: 10%;
@@ -135,9 +136,11 @@ a{
 }
 .tituloSeccion{
     font-size: 1em;
+    color:#fff;
 }
 .textoSeccion{
     font-size: 0.8em;
+    color:#fff;
 }
 
 /* --- VISTAS SECUNDARIAS --- */
@@ -148,6 +151,7 @@ a{
 .tituloPrincipalSeccion{
     font-size: 1.2em;
     text-align: center;
+    color: #fff;
 }
 
 /* --- FOOTER --- */
@@ -196,6 +200,7 @@ footer{
     .contenedorMain{
         padding-top: 28%;
         font-size: 1.3rem;
+        background-color: #000;
     }
 
     /* --- MENÚES --- */

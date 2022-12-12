@@ -3,12 +3,14 @@ window.addEventListener("load",function(){
     /*evento boton menu celu */
     let menu = document.querySelector(".menu")
     menu.addEventListener("click",function(){
+        let contenedorMain = document.querySelector(".contenedorMain")
         let linksHomeCelu = document.querySelector(".linksHomeCelu")
         if(linksHomeCelu.style.display == "none"){
             linksHomeCelu.style.display = "flex"
             linksHomeCelu.style.flexDirection = "column"
             linksHomeCelu.style.position="relative"
             linksHomeCelu.style.left="48%"
+            contenedorMain.style.backgroundColor="#000"
         }
         else{
             linksHomeCelu.style.display = "none"
